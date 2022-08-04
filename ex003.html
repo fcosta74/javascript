@@ -8,10 +8,11 @@
     <link rel="shortcut icon" href="fcs.ico" type="image/x-icon">
     <style>
         body{
-            background-color: rgb(100, 100, 172);
-            color: white;
-            font: normal 2em Arial;
+            background-color: rgb(140, 201, 161);
+            color: black;
+            font: normal 3em Arial;
             text-align: center;
+            margin-top: 40px;
         }
         h1{
             color: yellowgreen; /* comentário em css */
@@ -19,15 +20,18 @@
     </style>
 </head>
 <body>
-    <h1>Veja o resultado abaixo!</h1> 
 
     <script>
         var n1 = Number(window.prompt('Digite um número: '))
         var n2 = Number(window.prompt('Digite outro número: '))
         var s =  n1 + n2
+        var s1 = s / 2
+        var s3 = n1 * n2
         
        // window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
-        document.write(`A soma entre <strong>${n1}</strong> e <strong>${n2}</strong> é igual a <strong>${s}</strong>.`)        
+        document.write(`A soma entre <strong>${n1}</strong> e <strong>${n2}</strong> é igual a: <strong>${s}</strong>.<br>`)  
+        document.write(`A divisão entre eles é igual a: <strong>${s1}</strong>.<br>`)
+        document.write(`A multiplicação entre é igual a: <strong>${s3}</strong>.`)          
     </script>
 </body>
 </html>
