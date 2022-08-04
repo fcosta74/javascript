@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando Java</title>
+    <link rel="shortcut icon" href="fcs.ico" type="image/x-icon">
+    <style>
+        body{
+            font: normal 1.5em Arial;
+            background-color: aqua;
+            margin-left: 50px;
+            margin-top: 30px;    
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var nome = prompt('Qual é o seu nome')
+        var idade = prompt('Qual a sua')
+        document.writeln(`Olá, <strong>${nome}</strong>, você tem <strong>${idade}</strong> anos.<br>`)
+        document.writeln(`O seu nome tem: <strong>${nome.length}</strong> letras.<br>`)
+        document.write(`O seu nome em maiúsculo fica assim: <strong>${nome.toUpperCase()}</strong>.<br>`)
+        document.write(`O seu nome em minúsculo fica assim: <strong>${nome.toLocaleLowerCase()}</strong>.`)        
+    </script>
+    
+</body>
+</html>
