@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     background-color: rgb(70, 142, 236);
-    font: normal 18pt arial;
+    font: normal 1.5em arial;
 }
 header{
     text-align: center;
@@ -12,7 +12,7 @@ section{
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 380px;
+    width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.363 );
 }
@@ -23,4 +23,16 @@ footer{
     text-align: center;
     color: white;
     font-style: italic;
+}
+@media (max-width:800px) {
+
+    body{
+        font-size: 1em;
+        ;
+    }
+    section{
+        width: 300px;
+        margin-left: 15px;
+    }
+
 }
