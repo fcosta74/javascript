@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font: normal 1em arial;
+    background-color: #51cf86e8;  
+}
+button{
+    padding: 40px;
+    border-radius: 5px;
+    background-color: #51cf86e8;  
+    cursor: pointer;
+    margin: auto;
+    font-size: 1.5em;
+    display: block;
+    color: white;
+}
+button:hover{
+    background-color: aqua;
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+h1{
+    text-align: center;
+}
+@media (max-width: 700px){
+    
+}
