@@ -19,11 +19,11 @@ section{
 #res{
     text-align: center;
 }
-footer{
+/*footer{
     text-align: center;
     color: white;
     font-style: italic;
-}
+} */
 @media (max-width:800px) {
 
     body{
@@ -32,7 +32,7 @@ footer{
     }
     section{
         width: 300px;
-        margin-left: 15px;
+       
     }
 
 }
