@@ -1,0 +1,46 @@
+body{
+    font: normal 1.3em arial;
+    background-color: aqua;
+}
+#saida{
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+#res{
+    margin-top: 10px;
+    font-size: 1em;
+}
+p{
+    font-size: 1em;
+}
+
+th{
+    border: 1px solid;
+    font-size: 1.3em;
+    padding: 10px;
+}
+td{
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+table{
+    width: 350px;
+    border-collapse: collapse; 
+}
+.rep{
+    background-color: rgb(255, 140, 140);
+    color: rgb(143, 52, 52);
+
+}
+.apr{
+    background-color: #bfebaf;
+    color: rgb(74, 207, 74);
+}
+.rec{
+    background-color: white;
+    color: orange;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situação do aluno></title>
+    <link rel="shortcut icon" href="fcs.ico">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Situação do aluno</h1>
+    <input type="button" value="Entrar com as notas" id="saida" onclick="checar()">
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Média</th>
+                <th>Situção</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Abaixo de 3,0</th>
+                <td>REPROVADO</td>                
+            </tr>
+            <tr>
+                <td>Entre 3,0 6,0</th>
+                <td>RECUPERAÇÃO</td>                
+            </tr>
+            <tr>
+                <td>Acima de 6,0</td>
+                <td>APROVADO</td>
+            </tr>
+        </tbody>
+                
+        
+    </table>
+    <div id="res">
+        Clique no botão acima para informar as notas do aluno.
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
